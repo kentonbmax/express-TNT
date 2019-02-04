@@ -1,0 +1,33 @@
+{
+  "name": "express-tnt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/jest": "^23.3.13",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^10.12.18",
+    "frisby": "^2.1.1",
+    "jest": "^24.0.0",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "http",
+    "express"
+  ],
+  "author": "@ginjacoder",
+  "license": "MIT"
+}
