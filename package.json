@@ -18,7 +18,7 @@
     "typescript": "^3.2.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "tsc && node ./dist/server.js",
     "test": "jest",
     "watch": "tsc -w"
   },
